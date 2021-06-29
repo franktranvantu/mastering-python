@@ -1,9 +1,8 @@
-age = 10
-# if age >= 18:
-#   message = "Eligible"
-# else:
-#   message = "Not eligible"
-# print(message)
+high_income = True
+good_credit = True
+student = False
 
-message = "Eligible" if age >= 18 else "Not eligible"
-print(message)
+if (high_income or good_credit) and not student:
+  print("Eligible")
+else:
+  print("Not eligible")
