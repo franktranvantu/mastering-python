@@ -1,4 +1,12 @@
-first_name = "Frank"
-last_name = "Tran"
-full_name = f"{first_name} {last_name}"
-print(full_name)
+course = "  Python   programming  "
+print(course.upper())
+print(course.upper())
+print(course.title())
+print(course.title())
+print(course.lstrip())
+print(course.rstrip())
+print(course.strip())
+print(course.find("pro"))
+print(course.replace("p", "j"))
+print("pro" in course)
+print("pro" not in course)
