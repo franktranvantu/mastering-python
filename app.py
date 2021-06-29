@@ -1,13 +1,4 @@
- # \"
- # \'
- # \\
- # \n
-
-course = "Python \"Programming"
-print(course)
-course = "Python \'Programming"
-print(course)
-course = "Python \\Programming"
-print(course)
-course = "Python \nProgramming"
-print(course)
+first_name = "Frank"
+last_name = "Tran"
+full_name = f"{first_name} {last_name}"
+print(full_name)
