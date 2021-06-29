@@ -1,5 +1,9 @@
-import math
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
 
-print(math.fabs(-2.9))
-print(math.ceil(2.2))
-print(math.floor(2.2))
+# print(type(x))
+# int()
+# bool() Falsy: "", 0, None otherwise are Truthy
+# float()
+# str()
