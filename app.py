@@ -1,10 +1,13 @@
-course = "Python Programming"
-print(len(course))
-print("course[0]: " + course[0])
-print("course[-1]: " + course[-1])
-print("course[0:3]: " + course[0:3])
-print("course[2:3]: " + course[2:3])
-print("course[5:3]: " + course[5:3])
-print("course[0:]: " + course[0:])
-print("course[:3]: " + course[:3])
-print("course[:]: " + course[:])
+ # \"
+ # \'
+ # \\
+ # \n
+
+course = "Python \"Programming"
+print(course)
+course = "Python \'Programming"
+print(course)
+course = "Python \\Programming"
+print(course)
+course = "Python \nProgramming"
+print(course)
