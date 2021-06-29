@@ -1,12 +1,10 @@
-course = "  Python   programming  "
-print(course.upper())
-print(course.upper())
-print(course.title())
-print(course.title())
-print(course.lstrip())
-print(course.rstrip())
-print(course.strip())
-print(course.find("pro"))
-print(course.replace("p", "j"))
-print("pro" in course)
-print("pro" not in course)
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3)
+print(10 // 3)
+print(10 % 3)
+print(10 ** 3)
+x = 10
+x += 3
+print(x)
