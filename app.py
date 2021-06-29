@@ -1,5 +1,10 @@
-students_count = 1000
-rating = 4.99
-is_publishes = False
-course_name = "Python Programming"
-print(students_count)
+course = "Python Programming"
+print(len(course))
+print("course[0]: " + course[0])
+print("course[-1]: " + course[-1])
+print("course[0:3]: " + course[0:3])
+print("course[2:3]: " + course[2:3])
+print("course[5:3]: " + course[5:3])
+print("course[0:]: " + course[0:])
+print("course[:3]: " + course[:3])
+print("course[:]: " + course[:])
